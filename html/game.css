@@ -1,0 +1,94 @@
+
+
+/* Stylizacje do Gry */
+
+/* Obramówka */
+#borders {
+    left: 5%;
+    top: 25%;
+    position: relative;
+    display: none;
+    background-color: bisque;
+    height: 300px;
+    width: 480px;
+    border: 2px solid black;
+}
+/* Gracz */
+#player {
+    position: absolute;
+    background-color: aqua;
+    height: 35px;
+    width: 35px;
+    top: 132.5px;
+    left: 5px;
+}
+
+/* Przeciwnicy */
+#enemy1 , #enemy2 , #enemy3 , #enemy4 , #enemy5 , #enemy6 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+}
+
+/* Animowanie przeciwników */
+@keyframes gd{
+    0% {top:260px;}
+    50% {top:10px;}
+    100% {top:260px;}
+}
+@keyframes dg{
+    0% {top:10px;}
+    50% {top:260px;}
+    100% {top:10px;}
+}
+
+#enemy1 , #enemy3 , #enemy5{
+    animation-name: gd;
+    
+}
+
+#enemy2 , #enemy4 , #enemy6{
+    animation-name: dg;
+}
+
+/* Pozycjonowanie przeciwników */
+
+#enemy1 {
+    left: 70px;
+}
+#enemy2 {
+    left: 140px;
+}
+#enemy3 {
+    left: 210px;
+}
+#enemy4 {
+    left: 280px;
+}
+#enemy5 {
+    left: 350px;
+}
+#enemy6 {
+    left: 420px;
+}
+
+/* Pole końca */
+#finish{
+    position: absolute;
+    background-color: lime;
+    right: 0;
+    top: 125px;
+    width: 50px;
+    height: 50px;
+}
+
+#deathCounter{
+    position: absolute;
+    color:black;
+    top: 10px;
+    left: 10px;
+}

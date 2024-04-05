@@ -1,0 +1,31 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    display: inline;
+    color: white;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    display: inline-block;
+    color: white;
+}
+
+a {
+    background-color: rgb(75, 97, 219);
+    color: black;
+    width: 450pt;
+    height: 35pt;
+    border-color: black;
+    text-decoration: none;
+    font-size: larger;
+    margin: 150px;
+    padding: 10px;
+    border: 5pt;
+    border-radius: 2pt;
+}
