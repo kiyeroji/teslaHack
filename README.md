@@ -8,7 +8,7 @@ user  : proste
 
 ## Baza danych
 
-Baza danych znajduje się w pliku [wydzial.sql](wydzial.sql)
+Baza danych znajduje się w pliku [wydzial.sql](blob/main/html/wydzial.sql)
 
 
 ### Autorzy:
