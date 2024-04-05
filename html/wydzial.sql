@@ -70,8 +70,7 @@ LOCK TABLES `raporty` WRITE;
 INSERT INTO `raporty` VALUES
 (7,'Wypadek 1','2024-04-05 14:47:50','Opis wypadku 1','192.168.33.165','admin'),
 (8,'Wypadek 2','2024-04-05 14:48:01','Opis wypadku 2','192.168.33.165','admin'),
-(9,'Wybuch metanu','2024-04-05 15:40:44','W kopalni doszło do poważnego wybuchu dużej ilości metanu. 29 osób rannych.','192.168.33.158','admin'),
-(10,'','2024-04-05 15:44:01','Opis raportu','192.168.33.145','admin');
+(9,'Wybuch metanu','2024-04-05 15:40:44','W kopalni doszło do poważnego wybuchu dużej ilości metanu. 29 osób rannych.','192.168.33.158','admin');
 /*!40000 ALTER TABLE `raporty` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -84,4 +83,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-04-05 15:51:36
+-- Dump completed on 2024-04-05 15:56:05
